@@ -372,7 +372,7 @@ function App() {
           <p>An adept developer blending creative vision with technical precision to build scalable and resilient web applications.</p>
 
           <div className="buttons">
-            <button className="primary-btn" onClick={handleViewWork}>
+            <button className="secondary-btn" onClick={handleViewWork}>
               View Work
             </button>
             <button className="secondary-btn" onClick={handleContact}>

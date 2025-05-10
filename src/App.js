@@ -6,42 +6,16 @@ const AboutMe = () => (
   <div className="section-content">
     <h2><center>About Me</center></h2>
     <p>
-      Hello! I'm Shamra Faizal, a second-year Software Engineering student at The Open University of Sri Lanka.
-      With a focus on full-stack development and mobile applications, I am passionate about creating efficient,
-      user-centered solutions that solve real-world problems.
-    </p>
+  Hello! I'm Shamra Faizal, an undergraduate in Software Engineering at The Open University of Sri Lanka.
+  With a focus on full-stack development and mobile applications, I am passionate about creating efficient,
+  user-centered solutions that address real-world challenges.
+</p>
 
-    <h3>My Vision and Goals</h3>
-    <p>
-      I aspire to make a meaningful impact in the tech world by developing applications that are not only functional
-      but also innovative. I'm especially driven to expand my expertise in software architecture and design, aiming
-      to contribute to projects that push the boundaries of technology.
-    </p>
+<p>
+  I am open to internship opportunities where I can apply my skills, gain hands-on experience, and contribute to
+  impactful projects. If you're interested in collaborating or have an opportunity in mind, please feel free to reach out!
+</p>
 
-    <h3>Strengths and Skills</h3>
-    <p>
-      I'm proficient in a variety of languages and tools, including Python, JavaScript, Java, HTML, CSS, PHP, Vue.js,
-      and have hands-on experience with frameworks like React and tools like Git and SQL. I have successfully developed
-      a mobile application, further strengthening my skills in building robust and scalable solutions.
-    </p>
-
-    <h3>Outside of Coding</h3>
-    <p>
-      When I'm not working on projects, I enjoy exploring new technology trends, learning about AI advancements,
-      and diving into creative hobbies that keep me inspired.
-    </p>
-
-    <h3>Always Learning</h3>
-    <p>
-      Currently, I'm focusing on expanding my knowledge in artificial intelligence, aiming to integrate AI principles
-      into my future projects and enhance my technical versatility.
-    </p>
-
-    <h3>Open to Opportunities</h3>
-    <p>
-      I am open to internship opportunities where I can apply my skills, gain hands-on experience, and contribute to
-      impactful projects. If you're interested in collaborating or have an opportunity in mind, please feel free to reach out!
-    </p>
 
   </div>
 );

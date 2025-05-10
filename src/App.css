@@ -1347,8 +1347,64 @@
 }
 
 .project-card li:hover {
-  color: #61dafb; /* Change color on hover */
-  transition: color 0.3s ease; /* Smooth transition for color change */
+  color: #61dafb; 
+  transition: color 0.3s ease; 
 }
 
+@media (max-width: 600px) {
+  /* Stack main sections vertically */
+  .portfolio-container {
+    flex-direction: column !important;
+    padding: 0 !important;
+    min-width: 100vw;
+  }
 
+  /* Make image section fit mobile screens */
+  .image-section {
+    width: 100% !important;
+    min-width: 0 !important;
+    height: 180px !important;
+    min-height: 140px !important;
+    background-size: contain !important;
+    background-position: center !important;
+    margin-bottom: 1rem !important;
+  }
+
+  /* Adjust content section padding */
+  .content-section {
+    padding: 1rem 0.5rem !important;
+  }
+
+  /* Stack buttons vertically */
+  .work-section-buttons {
+    flex-direction: column !important;
+    gap: 0.5rem !important;
+    align-items: stretch !important;
+  }
+
+  .section-btn {
+    width: 100% !important;
+    font-size: 1rem !important;
+    padding: 0.7rem 1rem !important;
+  }
+
+  /* Make social links wrap and reduce gap */
+  .social-links {
+    gap: 0.7rem !important;
+    flex-wrap: wrap !important;
+    font-size: 1rem !important;
+  }
+
+  /* Adjust CV iframe for mobile */
+  .cv-section iframe {
+    height: 220px !important;
+  }
+
+  /* Reduce font sizes */
+  .text-content h1 {
+    font-size: 2rem !important;
+  }
+  .text-content h2 {
+    font-size: 1.2rem !important;
+  }
+}
